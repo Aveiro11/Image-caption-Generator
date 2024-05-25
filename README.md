@@ -13,3 +13,5 @@ To encode the image features, I used transfer learning. There are many models av
 To encode the text sequence, I mapped every word to a 200-dimensional vector using a pre-trained Glove model. This mapping was done in a separate layer after the input layer, called the embedding layer.
 
 To generate the captions, I used two popular methods: Greedy Search and Beam Search. These methods helped in selecting the best words to accurately describe the image.
+
+Dataset used: https://www.kaggle.com/datasets/shadabhussain/flickr8k?select=train_encoded_images.p (Flickr 8k image dataset)
